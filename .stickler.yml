@@ -1,8 +1,10 @@
 linters:
   checkstyle:
     config: ./checkstyle.xml
+    fixer: true
   eslint:
-      config: './.eslintrc'
+    config: './.eslintrc'
+    fixer: true
   csslint: {  }
 files:
   ignore:
