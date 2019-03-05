@@ -6,6 +6,8 @@ linters:
     config: './.eslintrc'
     fixer: true
   csslint: {  }
+fixers:
+  enable: true
 files:
   ignore:
     - 'bower_components/*'
